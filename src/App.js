@@ -1,37 +1,16 @@
 import "./App.css";
 import Homepage from "./pages/homepage/homepage.component.jsx";
-
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-const HatsPage = (props) => {
-  console.log(props);
-  return (
-    <div>
-      <h1> Hats page </h1>
-      <p>{`${props.match.url}`}</p>
-      <button onClick={()=>{props.history.push('/')}}>Home</button>
-    </div>
-  );
-};
-const Jackets = (props) => {
-  console.log('jackets:', props);
-  return (
-    <div>
-      <h1> Jackets page </h1>
-      <p>{`${props.match.url}`}</p>
-      <button onClick={()=>{props.history.push('/')}}>Home</button>
-    </div>
-  );
-};
+import { Switch, Route } from "react-router-dom";
+import ShopPage from "./pages/shop/shopPage.componet";
+import Navigation from "./components/navigation/nav.componets";
 
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <Switch>
         <Route exact path="/" component={Homepage} />
-        <Route exact path="/shop/hats" component={HatsPage} />
-        <Route exact path="/shop/jackets" component={Jackets} />
-        <Route exact path="/shop/hats" component={HatsPage} />
+        <Route exact path="/shop" component={ShopPage} />
       </Switch>
     </div>
   );

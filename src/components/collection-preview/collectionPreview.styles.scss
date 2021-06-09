@@ -1,0 +1,9 @@
+.collection-preview{
+
+    .title { text-align: center;}
+    .preview{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
