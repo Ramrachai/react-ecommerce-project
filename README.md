@@ -1,5 +1,5 @@
 ### Please Click the bellow links for live preview. Same project Deployed on two servers - Netlify and Vercel: 
-## <a href="https://ram-react-ecommerce.netlify.app/"> NETLIFY </a> or <a href="https://react-ecommerce-project.vercel.app//"> VERCEL </a>  
+## Live Preview: <a href="https://ram-react-ecommerce.netlify.app/"> NETLIFY </a> or <a href="https://react-ecommerce-project.vercel.app//"> VERCEL </a>  
 
 Reactjs Ecommerce project by <a href='http://ramrachai.com'> ramrachai </a>
 
