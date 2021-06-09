@@ -1,4 +1,4 @@
-## Live Preview: <a href="https://ram-react-ecommerce.netlify.app/"> NETLIFY </a>  <a href="https://react-ecommerce-project.vercel.app//"> VERCEL </a>  
+## Live Preview: <a href="https://ram-react-ecommerce.netlify.app/"> NETLIFY </a>  or  <a href="https://react-ecommerce-project.vercel.app//"> VERCEL </a>  
 
 Reactjs Ecommerce project by <a href='http://ramrachai.com'> ramrachai </a>
 
